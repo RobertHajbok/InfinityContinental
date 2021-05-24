@@ -266,8 +266,8 @@ blockquote {
     padding: 20px 0 30px 0;
 }
 
-/* Testimonials */
-#testimonials {
+/* Ridesharing */
+#ridesharing {
     color: white;
     background-image: url(../img/infinite-loop-02.jpg);
     background-size: cover;
@@ -277,12 +277,12 @@ blockquote {
 }
 
 @media (max-width: 991px) {
-    #testimonials {
+    #ridesharing {
         background-image: url(../img/infinite-loop-02-mobile.jpg);
     }
 }
 
-.tm-testimonials-content {
+.tm-ridesharing-content {
     position: relative;
     z-index: 100;
 }
@@ -299,26 +299,20 @@ blockquote {
     z-index: 0;
 }
 
-.tm-testimonials-carousel {
+.tm-ridesharing-carousel {
     max-width: 1050px;
     margin: 0 auto;
 }
 
-.tm-testimonial-item {
+.tm-ridesharing-item {
     max-width: 290px;
     margin-left: 35px;
     margin-right: 35px;
 }
 
-    .tm-testimonial-item img {
+    .tm-ridesharing-item img {
         border-radius: 50%;
         margin-bottom: 35px;
-    }
-
-    .tm-testimonial-item figcaption {
-        text-align: right;
-        font-style: italic;
-        font-size: 1.1rem;
     }
 
 /* Work */
@@ -353,14 +347,14 @@ blockquote {
             color: #3ba0dd;
         }
 
-.tm-testimonials-carousel .slick-dots li button:before {
+.tm-ridesharing-carousel .slick-dots li button:before {
     color: white;
     opacity: 0.5;
 }
 
-.tm-testimonials-carousel .slick-dots li button:hover:before,
-.tm-testimonials-carousel .slick-dots li button:focus:before,
-.tm-testimonials-carousel .slick-dots li.slick-active button:before {
+.tm-ridesharing-carousel .slick-dots li button:hover:before,
+.tm-ridesharing-carousel .slick-dots li button:focus:before,
+.tm-ridesharing-carousel .slick-dots li.slick-active button:before {
     color: white;
     opacity: 1;
 }
